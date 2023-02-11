@@ -1,3 +1,4 @@
+using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Reflection;
 using Microsoft.AspNetCore.Builder;
@@ -59,6 +60,8 @@ namespace Skoruba.IdentityServer4.Admin
                 endpoint.MapIdentityServer4AdminUI();
                 endpoint.MapIdentityServer4AdminUIHealthChecks();
             });
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+            AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
         }
 
         public virtual void ConfigureUIOptions(IdentityServer4AdminUIOptions options)

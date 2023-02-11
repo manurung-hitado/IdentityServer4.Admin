@@ -90,6 +90,10 @@ namespace Skoruba.IdentityServer4.STS.Identity
                     ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
                 });
             });
+
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+            AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
+
         }
 
         public virtual void RegisterDbContexts(IServiceCollection services)
