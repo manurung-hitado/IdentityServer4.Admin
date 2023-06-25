@@ -16,7 +16,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\src\Skoruba.IdentityServer4.STS.Identity\Skoruba.IdentityServer4.STS.Identity.csproj" />
+		<ProjectReference Include="..\..\src\SiHuria.IdentityServer4.STS.Identity\SiHuria.IdentityServer4.STS.Identity.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

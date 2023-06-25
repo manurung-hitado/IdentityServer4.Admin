@@ -10,8 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
 
 	<PackageReference Include="Serilog" Version="2.10.0" />
 	<PackageReference Include="Serilog.Enrichers.Environment" Version="2.2.0" />
@@ -27,4 +27,16 @@
 
   </ItemGroup>
 
-</Project>
+	<ItemGroup>
+		<ProjectReference Include="..\SiHuria.IdentityServer4.Admin.Api\SiHuria.IdentityServer4.Admin.Api.csproj" />
+		<ProjectReference Include="..\SiHuria.IdentityServer4.Admin.BusinessLogic.Identity\SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.csproj" />
+		<ProjectReference Include="..\SiHuria.IdentityServer4.Admin.BusinessLogic\SiHuria.IdentityServer4.Admin.BusinessLogic.csproj" />
+		<ProjectReference Include="..\SiHuria.IdentityServer4.Admin.EntityFramework.MySql\SiHuria.IdentityServer4.Admin.EntityFramework.MySql.csproj" />
+		<ProjectReference Include="..\SiHuria.IdentityServer4.Admin.EntityFramework.PostgreSQL\SiHuria.IdentityServer4.Admin.EntityFramework.PostgreSQL.csproj" />
+		<ProjectReference Include="..\SiHuria.IdentityServer4.Admin.EntityFramework.SqlServer\SiHuria.IdentityServer4.Admin.EntityFramework.SqlServer.csproj" />
+		<ProjectReference Include="..\SiHuria.IdentityServer4.Shared.Configuration\SiHuria.IdentityServer4.Shared.Configuration.csproj" />
+		<ProjectReference Include="..\SiHuria.IdentityServer4.Shared\SiHuria.IdentityServer4.Shared.csproj" />
+	</ItemGroup>
+
+
+	</Project>
