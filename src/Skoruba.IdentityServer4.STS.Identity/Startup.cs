@@ -13,6 +13,7 @@ using Skoruba.IdentityServer4.STS.Identity.Configuration.Interfaces;
 using Skoruba.IdentityServer4.STS.Identity.Helpers;
 using System;
 using Skoruba.IdentityServer4.Shared.Configuration.Helpers;
+using Microsoft.AspNetCore.Http;
 
 namespace Skoruba.IdentityServer4.STS.Identity
 {
@@ -90,7 +91,12 @@ namespace Skoruba.IdentityServer4.STS.Identity
                     ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
                 });
             });
-
+            app.UseCookiePolicy(new CookiePolicyOptions()
+            {
+                MinimumSameSitePolicy = SameSiteMode.Lax
+            });
+            //Disable UTC only DateTime type for PostgreSQL >= 6.0
+            //See https://github.com/skoruba/IdentityServer4.Admin/issues/996 and https://www.npgsql.org/doc/types/datetime.html
             AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
             AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
 

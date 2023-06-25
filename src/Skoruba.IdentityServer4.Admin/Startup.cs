@@ -47,6 +47,12 @@ namespace Skoruba.IdentityServer4.Admin
 
             // Add email senders which is currently setup for SendGrid and SMTP
             services.AddEmailSenders(Configuration);
+
+            //Disable UTC only DateTime type for PostgreSQL >= 6.0
+            //See https://github.com/skoruba/IdentityServer4.Admin/issues/996 and https://www.npgsql.org/doc/types/datetime.html
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+            AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
