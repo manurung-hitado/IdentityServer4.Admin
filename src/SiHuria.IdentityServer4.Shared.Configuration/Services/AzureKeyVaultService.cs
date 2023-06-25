@@ -10,9 +10,9 @@ using Microsoft.Azure.KeyVault;
 using Microsoft.Azure.KeyVault.Models;
 using Microsoft.Azure.Services.AppAuthentication;
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
-using Skoruba.IdentityServer4.Shared.Configuration.Configuration.Common;
+using SiHuria.IdentityServer4.Shared.Configuration.Configuration.Common;
 
-namespace Skoruba.IdentityServer4.Shared.Configuration.Services
+namespace SiHuria.IdentityServer4.Shared.Configuration.Services
 {
     public class AzureKeyVaultService
     {

@@ -4,14 +4,14 @@ using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Mappers.Configuration;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Resources;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Services;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Services.Interfaces;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Repositories;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Repositories.Interfaces;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Interfaces;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Mappers.Configuration;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Resources;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Services;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Services.Interfaces;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Identity.Repositories;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Identity.Repositories.Interfaces;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Interfaces;
 
 namespace Microsoft.Extensions.DependencyInjection
 {

@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Mappers.Converters
+namespace SiHuria.IdentityServer4.Admin.BusinessLogic.Mappers.Converters
 {
     public class AllowedSigningAlgorithmsConverter :
         IValueConverter<List<string>, string>,

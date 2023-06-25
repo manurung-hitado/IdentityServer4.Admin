@@ -7,7 +7,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Helpers
+namespace SiHuria.IdentityServer4.STS.Identity.Helpers
 {
     public class SecurityHeadersAttribute : ActionFilterAttribute
     {

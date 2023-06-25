@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using Skoruba.IdentityServer4.Admin.Api.Dtos.IdentityResources;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
+using SiHuria.IdentityServer4.Admin.Api.Dtos.IdentityResources;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
 
-namespace Skoruba.IdentityServer4.Admin.Api.Mappers
+namespace SiHuria.IdentityServer4.Admin.Api.Mappers
 {
     public class IdentityResourceApiMapperProfile : Profile
     {

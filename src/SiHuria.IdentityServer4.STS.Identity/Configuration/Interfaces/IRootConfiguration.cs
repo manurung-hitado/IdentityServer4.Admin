@@ -1,6 +1,6 @@
-﻿using Skoruba.IdentityServer4.Shared.Configuration.Configuration.Identity;
+﻿using SiHuria.IdentityServer4.Shared.Configuration.Configuration.Identity;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Configuration.Interfaces
+namespace SiHuria.IdentityServer4.STS.Identity.Configuration.Interfaces
 {
     public interface IRootConfiguration
     {

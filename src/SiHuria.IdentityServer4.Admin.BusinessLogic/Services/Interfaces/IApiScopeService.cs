@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Services.Interfaces
+namespace SiHuria.IdentityServer4.Admin.BusinessLogic.Services.Interfaces
 {
     public interface IApiScopeService
     {

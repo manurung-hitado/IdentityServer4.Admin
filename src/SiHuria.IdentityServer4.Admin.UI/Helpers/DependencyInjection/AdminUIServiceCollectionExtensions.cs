@@ -3,15 +3,15 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.IdentityServer4.Admin.UI.Helpers;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
+using SiHuria.IdentityServer4.Admin.UI.Helpers;
 using System;
 using Microsoft.AspNetCore.DataProtection.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Skoruba.AuditLogging.EntityFramework.DbContexts;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Interfaces;
-using Skoruba.IdentityServer4.Shared.Configuration.Helpers;
-using static Skoruba.IdentityServer4.Admin.UI.Helpers.StartupHelpers;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Interfaces;
+using SiHuria.IdentityServer4.Shared.Configuration.Helpers;
+using static SiHuria.IdentityServer4.Admin.UI.Helpers.StartupHelpers;
 
 namespace Microsoft.Extensions.DependencyInjection
 {

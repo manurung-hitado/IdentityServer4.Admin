@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Skoruba.IdentityServer4.Admin.Configuration.Test
+namespace SiHuria.IdentityServer4.Admin.Configuration.Test
 {
 	public class StartupTest : Startup
     {

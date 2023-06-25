@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.Net.Http.Headers;
 
-namespace Skoruba.IdentityServer4.Admin.IntegrationTests.Common
+namespace SiHuria.IdentityServer4.Admin.IntegrationTests.Common
 {
     public class AntiforgeryHelper
     {

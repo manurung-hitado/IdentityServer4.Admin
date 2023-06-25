@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.Configuration.Identity;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.Configuration.Identity;
 
-namespace Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.Configuration
+namespace SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.Configuration
 {
 	public class IdentityData
     {

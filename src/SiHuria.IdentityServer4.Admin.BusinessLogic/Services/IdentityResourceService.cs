@@ -1,15 +1,15 @@
 ﻿using System.Threading.Tasks;
 using Skoruba.AuditLogging.Services;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Events.IdentityResource;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Helpers;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Mappers;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Resources;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Services.Interfaces;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.ExceptionHandling;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Repositories.Interfaces;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Events.IdentityResource;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Helpers;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Mappers;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Resources;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Services.Interfaces;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Shared.ExceptionHandling;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Repositories.Interfaces;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Services
+namespace SiHuria.IdentityServer4.Admin.BusinessLogic.Services
 {
     public class IdentityResourceService : IIdentityResourceService
     {

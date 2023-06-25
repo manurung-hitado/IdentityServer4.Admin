@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.Admin.UI.Configuration.Constants
+﻿namespace SiHuria.IdentityServer4.Admin.UI.Configuration.Constants
 {
     public class AuthorizationConsts
     {

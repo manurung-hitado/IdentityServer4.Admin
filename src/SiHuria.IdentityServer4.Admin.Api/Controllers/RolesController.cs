@@ -5,15 +5,15 @@ using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Skoruba.IdentityServer4.Admin.Api.Configuration.Constants;
-using Skoruba.IdentityServer4.Admin.Api.Dtos.Roles;
-using Skoruba.IdentityServer4.Admin.Api.ExceptionHandling;
-using Skoruba.IdentityServer4.Admin.Api.Helpers.Localization;
-using Skoruba.IdentityServer4.Admin.Api.Resources;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Services.Interfaces;
+using SiHuria.IdentityServer4.Admin.Api.Configuration.Constants;
+using SiHuria.IdentityServer4.Admin.Api.Dtos.Roles;
+using SiHuria.IdentityServer4.Admin.Api.ExceptionHandling;
+using SiHuria.IdentityServer4.Admin.Api.Helpers.Localization;
+using SiHuria.IdentityServer4.Admin.Api.Resources;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Services.Interfaces;
 
-namespace Skoruba.IdentityServer4.Admin.Api.Controllers
+namespace SiHuria.IdentityServer4.Admin.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

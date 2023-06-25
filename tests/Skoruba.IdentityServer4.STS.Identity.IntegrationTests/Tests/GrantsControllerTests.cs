@@ -1,12 +1,12 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Skoruba.IdentityServer4.STS.Identity.IntegrationTests.Common;
-using Skoruba.IdentityServer4.STS.Identity.IntegrationTests.Mocks;
-using Skoruba.IdentityServer4.STS.Identity.IntegrationTests.Tests.Base;
+using SiHuria.IdentityServer4.STS.Identity.IntegrationTests.Common;
+using SiHuria.IdentityServer4.STS.Identity.IntegrationTests.Mocks;
+using SiHuria.IdentityServer4.STS.Identity.IntegrationTests.Tests.Base;
 using Xunit;
 
-namespace Skoruba.IdentityServer4.STS.Identity.IntegrationTests.Tests
+namespace SiHuria.IdentityServer4.STS.Identity.IntegrationTests.Tests
 {
     public class GrantsControllerTests : BaseClassFixture
     {

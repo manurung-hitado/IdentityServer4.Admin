@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.Admin.Api.Dtos.Clients
+﻿namespace SiHuria.IdentityServer4.Admin.Api.Dtos.Clients
 {
     public class ClientPropertyApiDto
     {

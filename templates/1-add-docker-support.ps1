@@ -1,6 +1,6 @@
 $templateRoot = "template-publish/content"
 $templateSrc = "template-publish/content/src"
-$temporaryProjectFolder = "SkorubaIdentityServer4Admin"
+$temporaryProjectFolder = "SiHuriaIdentityServer4Admin"
 $templateDockerFolder = "template-docker"
 
 # Remove original src folder for publish folder
@@ -20,6 +20,6 @@ Copy-Item ./$temporaryProjectFolder/Directory.Build.props $templateRoot -recurse
 Copy-Item ./$temporaryProjectFolder/LICENSE.md $templateRoot -recurse -force
 
 # Copy docker files for Admin, Api and STS
-Copy-Item ./$templateDockerFolder/SkorubaIdentityServer4Admin.Admin/* $templateSrc/SkorubaIdentityServer4Admin.Admin -recurse -force
-Copy-Item ./$templateDockerFolder/SkorubaIdentityServer4Admin.Admin.Api/* $templateSrc/SkorubaIdentityServer4Admin.Admin.Api -recurse -force
-Copy-Item ./$templateDockerFolder/SkorubaIdentityServer4Admin.STS.Identity/* $templateSrc/SkorubaIdentityServer4Admin.STS.Identity -recurse -force
+Copy-Item ./$templateDockerFolder/SiHuriaIdentityServer4Admin.Admin/* $templateSrc/SiHuriaIdentityServer4Admin.Admin -recurse -force
+Copy-Item ./$templateDockerFolder/SiHuriaIdentityServer4Admin.Admin.Api/* $templateSrc/SiHuriaIdentityServer4Admin.Admin.Api -recurse -force
+Copy-Item ./$templateDockerFolder/SiHuriaIdentityServer4Admin.STS.Identity/* $templateSrc/SiHuriaIdentityServer4Admin.STS.Identity -recurse -force

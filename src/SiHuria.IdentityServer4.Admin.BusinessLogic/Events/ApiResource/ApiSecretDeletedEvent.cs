@@ -1,6 +1,6 @@
 ﻿using Skoruba.AuditLogging.Events;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Events.ApiResource
+namespace SiHuria.IdentityServer4.Admin.BusinessLogic.Events.ApiResource
 {
     public class ApiSecretDeletedEvent : AuditEvent
     {

@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.Configuration
+﻿namespace SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.Configuration
 {
     public class SeedConfiguration
     {

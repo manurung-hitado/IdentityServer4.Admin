@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.ExceptionHandling
+﻿namespace SiHuria.IdentityServer4.Admin.BusinessLogic.Shared.ExceptionHandling
 {
     public class ViewErrorMessage
     {

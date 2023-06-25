@@ -15,20 +15,20 @@ using Skoruba.AuditLogging.EntityFramework.Entities;
 using Skoruba.AuditLogging.EntityFramework.Extensions;
 using Skoruba.AuditLogging.EntityFramework.Repositories;
 using Skoruba.AuditLogging.EntityFramework.Services;
-using Skoruba.IdentityServer4.Admin.Api.AuditLogging;
-using Skoruba.IdentityServer4.Admin.Api.Configuration;
-using Skoruba.IdentityServer4.Admin.Api.Configuration.ApplicationParts;
-using Skoruba.IdentityServer4.Admin.Api.Configuration.Constants;
-using Skoruba.IdentityServer4.Admin.Api.Helpers.Localization;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.Configuration;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.MySql;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.PostgreSQL;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.SqlServer;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Helpers;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Interfaces;
+using SiHuria.IdentityServer4.Admin.Api.AuditLogging;
+using SiHuria.IdentityServer4.Admin.Api.Configuration;
+using SiHuria.IdentityServer4.Admin.Api.Configuration.ApplicationParts;
+using SiHuria.IdentityServer4.Admin.Api.Configuration.Constants;
+using SiHuria.IdentityServer4.Admin.Api.Helpers.Localization;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.Configuration;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.MySql;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.PostgreSQL;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.SqlServer;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Helpers;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Interfaces;
 
-namespace Skoruba.IdentityServer4.Admin.Api.Helpers
+namespace SiHuria.IdentityServer4.Admin.Api.Helpers
 {
     public static class StartupHelpers
     {

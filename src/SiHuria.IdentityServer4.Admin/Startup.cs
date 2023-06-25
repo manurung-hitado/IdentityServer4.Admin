@@ -8,15 +8,15 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.IdentityServer4.Admin.Configuration.Database;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Shared.DbContexts;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Shared.Entities.Identity;
-using Skoruba.IdentityServer4.Admin.Helpers;
-using Skoruba.IdentityServer4.Shared.Configuration.Helpers;
-using Skoruba.IdentityServer4.Shared.Dtos;
-using Skoruba.IdentityServer4.Shared.Dtos.Identity;
+using SiHuria.IdentityServer4.Admin.Configuration.Database;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Shared.DbContexts;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Shared.Entities.Identity;
+using SiHuria.IdentityServer4.Admin.Helpers;
+using SiHuria.IdentityServer4.Shared.Configuration.Helpers;
+using SiHuria.IdentityServer4.Shared.Dtos;
+using SiHuria.IdentityServer4.Shared.Dtos.Identity;
 
-namespace Skoruba.IdentityServer4.Admin
+namespace SiHuria.IdentityServer4.Admin
 {
     public class Startup
     {

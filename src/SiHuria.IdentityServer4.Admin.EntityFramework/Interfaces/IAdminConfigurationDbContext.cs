@@ -2,7 +2,7 @@
 using IdentityServer4.EntityFramework.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace Skoruba.IdentityServer4.Admin.EntityFramework.Interfaces
+namespace SiHuria.IdentityServer4.Admin.EntityFramework.Interfaces
 {
     public interface IAdminConfigurationDbContext : IConfigurationDbContext
     {

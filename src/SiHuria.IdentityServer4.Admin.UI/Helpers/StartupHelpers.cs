@@ -19,18 +19,18 @@ using Skoruba.AuditLogging.EntityFramework.Entities;
 using Skoruba.AuditLogging.EntityFramework.Extensions;
 using Skoruba.AuditLogging.EntityFramework.Repositories;
 using Skoruba.AuditLogging.EntityFramework.Services;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Services;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Services.Interfaces;
-using Skoruba.IdentityServer4.Admin.UI.Configuration;
-using Skoruba.IdentityServer4.Admin.UI.Configuration.ApplicationParts;
-using Skoruba.IdentityServer4.Admin.UI.Configuration.Constants;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Helpers;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Interfaces;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Repositories;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Repositories.Interfaces;
-using Skoruba.IdentityServer4.Admin.UI.ExceptionHandling;
-using Skoruba.IdentityServer4.Admin.UI.Helpers.Localization;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Services;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Services.Interfaces;
+using SiHuria.IdentityServer4.Admin.UI.Configuration;
+using SiHuria.IdentityServer4.Admin.UI.Configuration.ApplicationParts;
+using SiHuria.IdentityServer4.Admin.UI.Configuration.Constants;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Helpers;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Interfaces;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Repositories;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Repositories.Interfaces;
+using SiHuria.IdentityServer4.Admin.UI.ExceptionHandling;
+using SiHuria.IdentityServer4.Admin.UI.Helpers.Localization;
 using System;
 using System.Globalization;
 using System.Linq;
@@ -39,15 +39,15 @@ using Microsoft.AspNetCore.HttpOverrides;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.Localization;
 using Microsoft.AspNetCore.Hosting;
-using Skoruba.IdentityServer4.Admin.UI.Middlewares;
+using SiHuria.IdentityServer4.Admin.UI.Middlewares;
 using Microsoft.AspNetCore.Authorization;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.Configuration;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.MySql;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.PostgreSQL;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.SqlServer;
-using Skoruba.IdentityServer4.Shared.Configuration.Authentication;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.Configuration;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.MySql;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.PostgreSQL;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.SqlServer;
+using SiHuria.IdentityServer4.Shared.Configuration.Authentication;
 
-namespace Skoruba.IdentityServer4.Admin.UI.Helpers
+namespace SiHuria.IdentityServer4.Admin.UI.Helpers
 {
     public static class StartupHelpers
     {

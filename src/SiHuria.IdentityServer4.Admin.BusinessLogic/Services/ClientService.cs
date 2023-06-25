@@ -4,19 +4,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using IdentityServer4.Models;
 using Skoruba.AuditLogging.Services;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Dtos.Enums;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Events.Client;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Helpers;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Mappers;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Resources;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Services.Interfaces;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.Dtos.Common;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.ExceptionHandling;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Helpers;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Repositories.Interfaces;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Dtos.Enums;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Events.Client;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Helpers;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Mappers;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Resources;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Services.Interfaces;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Shared.Dtos.Common;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Shared.ExceptionHandling;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Helpers;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Repositories.Interfaces;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Services
+namespace SiHuria.IdentityServer4.Admin.BusinessLogic.Services
 {
     public class ClientService : IClientService
     {

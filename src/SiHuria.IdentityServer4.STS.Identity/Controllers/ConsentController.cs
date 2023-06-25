@@ -16,11 +16,11 @@ using IdentityServer4.Validation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Skoruba.IdentityServer4.STS.Identity.Configuration;
-using Skoruba.IdentityServer4.STS.Identity.Helpers;
-using Skoruba.IdentityServer4.STS.Identity.ViewModels.Consent;
+using SiHuria.IdentityServer4.STS.Identity.Configuration;
+using SiHuria.IdentityServer4.STS.Identity.Helpers;
+using SiHuria.IdentityServer4.STS.Identity.ViewModels.Consent;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Controllers
+namespace SiHuria.IdentityServer4.STS.Identity.Controllers
 {
     /// <summary>
     /// This controller processes the consent UI

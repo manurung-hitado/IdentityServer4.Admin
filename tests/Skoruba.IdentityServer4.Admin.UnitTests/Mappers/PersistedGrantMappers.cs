@@ -1,10 +1,10 @@
 ﻿using System;
 using FluentAssertions;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Mappers;
-using Skoruba.IdentityServer4.Admin.UnitTests.Mocks;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Mappers;
+using SiHuria.IdentityServer4.Admin.UnitTests.Mocks;
 using Xunit;
 
-namespace Skoruba.IdentityServer4.Admin.UnitTests.Mappers
+namespace SiHuria.IdentityServer4.Admin.UnitTests.Mappers
 {
     public class PersistedGrantMappers
     {

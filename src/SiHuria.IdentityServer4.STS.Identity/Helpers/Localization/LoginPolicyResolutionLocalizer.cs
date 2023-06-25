@@ -1,6 +1,6 @@
-﻿using Skoruba.IdentityServer4.Shared.Configuration.Configuration.Identity;
+﻿using SiHuria.IdentityServer4.Shared.Configuration.Configuration.Identity;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Helpers.Localization
+namespace SiHuria.IdentityServer4.STS.Identity.Helpers.Localization
 {
     public static class LoginPolicyResolutionLocalizer
     {

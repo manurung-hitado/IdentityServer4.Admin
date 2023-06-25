@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Skoruba.IdentityServer4.Shared.Configuration.Helpers
+namespace SiHuria.IdentityServer4.Shared.Configuration.Helpers
 {
     public static class ThemeHelpers
     {

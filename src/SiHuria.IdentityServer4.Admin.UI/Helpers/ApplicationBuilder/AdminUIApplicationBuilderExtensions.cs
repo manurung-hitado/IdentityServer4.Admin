@@ -2,12 +2,12 @@
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.IdentityServer4.Admin.UI.Configuration;
-using Skoruba.IdentityServer4.Admin.UI.Helpers;
-using Skoruba.IdentityServer4.Admin.UI.Middlewares;
+using SiHuria.IdentityServer4.Admin.UI.Configuration;
+using SiHuria.IdentityServer4.Admin.UI.Helpers;
+using SiHuria.IdentityServer4.Admin.UI.Middlewares;
 using System;
 using System.Collections.Generic;
-using Skoruba.IdentityServer4.Admin.UI.Configuration.Constants;
+using SiHuria.IdentityServer4.Admin.UI.Configuration.Constants;
 
 namespace Microsoft.AspNetCore.Builder
 {

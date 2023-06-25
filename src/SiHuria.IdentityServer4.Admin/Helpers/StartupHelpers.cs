@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
-using Skoruba.IdentityServer4.Admin.UI.Configuration;
+using SiHuria.IdentityServer4.Admin.UI.Configuration;
 
-namespace Skoruba.IdentityServer4.Admin.Helpers;
+namespace SiHuria.IdentityServer4.Admin.Helpers;
 
 public static class StartupHelpers
 {

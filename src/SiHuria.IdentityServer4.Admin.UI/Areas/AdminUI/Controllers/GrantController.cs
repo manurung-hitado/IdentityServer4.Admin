@@ -3,13 +3,13 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Grant;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Services.Interfaces;
-using Skoruba.IdentityServer4.Admin.UI.ExceptionHandling;
-using Skoruba.IdentityServer4.Admin.UI.Helpers;
-using Skoruba.IdentityServer4.Admin.UI.Configuration.Constants;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Grant;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Services.Interfaces;
+using SiHuria.IdentityServer4.Admin.UI.ExceptionHandling;
+using SiHuria.IdentityServer4.Admin.UI.Helpers;
+using SiHuria.IdentityServer4.Admin.UI.Configuration.Constants;
 
-namespace Skoruba.IdentityServer4.Admin.UI.Areas.AdminUI.Controllers
+namespace SiHuria.IdentityServer4.Admin.UI.Areas.AdminUI.Controllers
 {
     [Authorize(Policy = AuthorizationConsts.AdministrationPolicy)]
     [TypeFilter(typeof(ControllerExceptionFilterAttribute))]

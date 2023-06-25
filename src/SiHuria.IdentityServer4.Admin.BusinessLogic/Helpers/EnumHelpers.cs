@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.Dtos.Common;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Shared.Dtos.Common;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Helpers
+namespace SiHuria.IdentityServer4.Admin.BusinessLogic.Helpers
 {
 	public class EnumHelpers
 	{

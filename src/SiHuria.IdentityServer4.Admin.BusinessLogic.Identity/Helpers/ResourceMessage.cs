@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Helpers
+﻿namespace SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Helpers
 {
     public class ResourceMessage
     {

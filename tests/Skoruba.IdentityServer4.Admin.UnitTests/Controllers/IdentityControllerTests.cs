@@ -20,18 +20,18 @@ using Skoruba.AuditLogging.EntityFramework.Entities;
 using Skoruba.AuditLogging.EntityFramework.Extensions;
 using Skoruba.AuditLogging.EntityFramework.Repositories;
 using Skoruba.AuditLogging.EntityFramework.Services;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Services.Interfaces;
-using Skoruba.IdentityServer4.Admin.UI.Areas.AdminUI.Controllers;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Shared.DbContexts;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Shared.Entities.Identity;
-using Skoruba.IdentityServer4.Admin.UnitTests.Mocks;
-using Skoruba.IdentityServer4.Admin.UI.Helpers;
-using Skoruba.IdentityServer4.Admin.UI.Helpers.Localization;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Services.Interfaces;
+using SiHuria.IdentityServer4.Admin.UI.Areas.AdminUI.Controllers;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Shared.DbContexts;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Shared.Entities.Identity;
+using SiHuria.IdentityServer4.Admin.UnitTests.Mocks;
+using SiHuria.IdentityServer4.Admin.UI.Helpers;
+using SiHuria.IdentityServer4.Admin.UI.Helpers.Localization;
 using Xunit;
 using System.Security.Claims;
 
-namespace Skoruba.IdentityServer4.Admin.UnitTests.Controllers
+namespace SiHuria.IdentityServer4.Admin.UnitTests.Controllers
 {
     public class IdentityControllerTests
     {

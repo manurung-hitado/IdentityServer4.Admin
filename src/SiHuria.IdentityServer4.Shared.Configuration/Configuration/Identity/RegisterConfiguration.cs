@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.Shared.Configuration.Configuration.Identity
+﻿namespace SiHuria.IdentityServer4.Shared.Configuration.Configuration.Identity
 {
     public class RegisterConfiguration
     {

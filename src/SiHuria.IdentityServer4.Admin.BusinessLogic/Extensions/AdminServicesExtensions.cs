@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Resources;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Services;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Services.Interfaces;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Interfaces;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Repositories;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Repositories.Interfaces;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Resources;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Services;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Services.Interfaces;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Interfaces;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Repositories;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Repositories.Interfaces;
 
 namespace Microsoft.Extensions.DependencyInjection
 {

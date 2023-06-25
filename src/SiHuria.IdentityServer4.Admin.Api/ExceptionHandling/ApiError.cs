@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.Admin.Api.ExceptionHandling
+﻿namespace SiHuria.IdentityServer4.Admin.Api.ExceptionHandling
 {
     public class ApiError
     {

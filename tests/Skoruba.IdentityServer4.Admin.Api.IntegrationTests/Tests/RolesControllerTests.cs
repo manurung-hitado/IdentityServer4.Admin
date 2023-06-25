@@ -2,12 +2,12 @@
 using System.Threading.Tasks;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc.Testing;
-using Skoruba.IdentityServer4.Admin.Api.Configuration.Test;
-using Skoruba.IdentityServer4.Admin.Api.IntegrationTests.Common;
-using Skoruba.IdentityServer4.Admin.Api.IntegrationTests.Tests.Base;
+using SiHuria.IdentityServer4.Admin.Api.Configuration.Test;
+using SiHuria.IdentityServer4.Admin.Api.IntegrationTests.Common;
+using SiHuria.IdentityServer4.Admin.Api.IntegrationTests.Tests.Base;
 using Xunit;
 
-namespace Skoruba.IdentityServer4.Admin.Api.IntegrationTests.Tests
+namespace SiHuria.IdentityServer4.Admin.Api.IntegrationTests.Tests
 {
     public class RolesControllerTests : BaseClassFixture
     {

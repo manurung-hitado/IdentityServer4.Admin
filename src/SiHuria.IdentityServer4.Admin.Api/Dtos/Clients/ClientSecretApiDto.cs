@@ -1,8 +1,8 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Helpers;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Helpers;
 
-namespace Skoruba.IdentityServer4.Admin.Api.Dtos.Clients
+namespace SiHuria.IdentityServer4.Admin.Api.Dtos.Clients
 {
     public class ClientSecretApiDto
     {
@@ -18,7 +18,7 @@ namespace Skoruba.IdentityServer4.Admin.Api.Dtos.Clients
 
         public string HashType { get; set; }
 
-        public HashType HashTypeEnum => Enum.TryParse(HashType, true, out HashType result) ? result : Skoruba.IdentityServer4.Admin.EntityFramework.Helpers.HashType.Sha256;
+        public HashType HashTypeEnum => Enum.TryParse(HashType, true, out HashType result) ? result : SiHuria.IdentityServer4.Admin.EntityFramework.Helpers.HashType.Sha256;
 
         public DateTime? Expiration { get; set; }
     }

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Reflection;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.Configuration;
-using SqlMigrationAssembly = Skoruba.IdentityServer4.Admin.EntityFramework.SqlServer.Helpers.MigrationAssembly;
-using MySqlMigrationAssembly = Skoruba.IdentityServer4.Admin.EntityFramework.MySql.Helpers.MigrationAssembly;
-using PostgreSQLMigrationAssembly = Skoruba.IdentityServer4.Admin.EntityFramework.PostgreSQL.Helpers.MigrationAssembly;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.Configuration;
+using SqlMigrationAssembly = SiHuria.IdentityServer4.Admin.EntityFramework.SqlServer.Helpers.MigrationAssembly;
+using MySqlMigrationAssembly = SiHuria.IdentityServer4.Admin.EntityFramework.MySql.Helpers.MigrationAssembly;
+using PostgreSQLMigrationAssembly = SiHuria.IdentityServer4.Admin.EntityFramework.PostgreSQL.Helpers.MigrationAssembly;
 
-namespace Skoruba.IdentityServer4.Admin.Configuration.Database
+namespace SiHuria.IdentityServer4.Admin.Configuration.Database
 {
     public static class MigrationAssemblyConfiguration
     {

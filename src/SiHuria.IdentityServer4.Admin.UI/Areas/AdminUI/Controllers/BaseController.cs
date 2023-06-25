@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using Skoruba.IdentityServer4.Admin.UI.Configuration.Constants;
-using Skoruba.IdentityServer4.Admin.UI.Helpers;
+using SiHuria.IdentityServer4.Admin.UI.Configuration.Constants;
+using SiHuria.IdentityServer4.Admin.UI.Helpers;
 
-namespace Skoruba.IdentityServer4.Admin.UI.Areas.AdminUI.Controllers
+namespace SiHuria.IdentityServer4.Admin.UI.Areas.AdminUI.Controllers
 {
     [Area(CommonConsts.AdminUIArea)]
     public class BaseController : Controller

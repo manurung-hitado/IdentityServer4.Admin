@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Skoruba.IdentityServer4.Admin.UI.Areas.AdminUI.Controllers;
+using SiHuria.IdentityServer4.Admin.UI.Areas.AdminUI.Controllers;
 using Xunit;
 
-namespace Skoruba.IdentityServer4.Admin.UnitTests.Controllers
+namespace SiHuria.IdentityServer4.Admin.UnitTests.Controllers
 {
     public class HomeControllerTests
     {

@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.Admin.Api.Dtos.Users
+﻿namespace SiHuria.IdentityServer4.Admin.Api.Dtos.Users
 {
     public class UserProviderApiDto<TKey>
     {

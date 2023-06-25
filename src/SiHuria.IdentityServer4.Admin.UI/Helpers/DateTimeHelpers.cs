@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Skoruba.IdentityServer4.Admin.UI.Helpers
+namespace SiHuria.IdentityServer4.Admin.UI.Helpers
 {
     public static class DateTimeHelpers
     {

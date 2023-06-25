@@ -13,26 +13,26 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Options;
-using Skoruba.IdentityServer4.STS.Identity.Configuration;
-using Skoruba.IdentityServer4.STS.Identity.Configuration.ApplicationParts;
-using Skoruba.IdentityServer4.STS.Identity.Configuration.Constants;
-using Skoruba.IdentityServer4.STS.Identity.Configuration.Interfaces;
-using Skoruba.IdentityServer4.STS.Identity.Helpers.Localization;
+using SiHuria.IdentityServer4.STS.Identity.Configuration;
+using SiHuria.IdentityServer4.STS.Identity.Configuration.ApplicationParts;
+using SiHuria.IdentityServer4.STS.Identity.Configuration.Constants;
+using SiHuria.IdentityServer4.STS.Identity.Configuration.Interfaces;
+using SiHuria.IdentityServer4.STS.Identity.Helpers.Localization;
 using System.Linq;
 using IdentityServer4.Configuration;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Interfaces;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Helpers;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Interfaces;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Helpers;
 using Microsoft.AspNetCore.DataProtection.EntityFrameworkCore;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Identity.Web;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.Configuration;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.MySql;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.PostgreSQL;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.SqlServer;
-using Skoruba.IdentityServer4.Shared.Configuration.Authentication;
-using Skoruba.IdentityServer4.Shared.Configuration.Configuration.Identity;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.Configuration;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.MySql;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.PostgreSQL;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.SqlServer;
+using SiHuria.IdentityServer4.Shared.Configuration.Authentication;
+using SiHuria.IdentityServer4.Shared.Configuration.Configuration.Identity;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Helpers
+namespace SiHuria.IdentityServer4.STS.Identity.Helpers
 {
     public static class StartupHelpers
     {

@@ -10,7 +10,7 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 
-namespace Skoruba.IdentityServer4.Admin.UI.Helpers.Localization
+namespace SiHuria.IdentityServer4.Admin.UI.Helpers.Localization
 {
 	public class ResourceViewLocalizer : IViewLocalizer, IViewContextAware
 	{

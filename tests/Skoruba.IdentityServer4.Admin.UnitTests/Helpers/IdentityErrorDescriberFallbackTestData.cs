@@ -1,8 +1,8 @@
-﻿using Skoruba.IdentityServer4.Admin.UI.Helpers.Identity;
+﻿using SiHuria.IdentityServer4.Admin.UI.Helpers.Identity;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Skoruba.IdentityServer4.Admin.UnitTests.Helpers
+namespace SiHuria.IdentityServer4.Admin.UnitTests.Helpers
 {
     class IdentityErrorDescriberFallbackTestData : IEnumerable<object[]>
     {

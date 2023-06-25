@@ -1,11 +1,11 @@
 ﻿using System.Net.Http;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.IdentityServer4.Admin.IntegrationTests.Common;
-using Skoruba.IdentityServer4.Admin.UI.Configuration;
+using SiHuria.IdentityServer4.Admin.IntegrationTests.Common;
+using SiHuria.IdentityServer4.Admin.UI.Configuration;
 using Xunit;
 
-namespace Skoruba.IdentityServer4.Admin.IntegrationTests.Tests.Base
+namespace SiHuria.IdentityServer4.Admin.IntegrationTests.Tests.Base
 {
 	public class BaseClassFixture : IClassFixture<TestFixture>
     {

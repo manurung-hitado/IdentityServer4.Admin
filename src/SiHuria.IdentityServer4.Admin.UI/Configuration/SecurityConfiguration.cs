@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using System;
 using System.Collections.Generic;
 
-namespace Skoruba.IdentityServer4.Admin.UI.Configuration
+namespace SiHuria.IdentityServer4.Admin.UI.Configuration
 {
 	public class SecurityConfiguration
 	{

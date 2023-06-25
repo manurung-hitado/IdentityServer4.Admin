@@ -3,7 +3,7 @@ using System;
 using Microsoft.Extensions.DependencyInjection;
 using System.Linq;
 
-namespace Skoruba.IdentityServer4.Admin.EntityFramework.Helpers
+namespace SiHuria.IdentityServer4.Admin.EntityFramework.Helpers
 {
     public static class DbContextHelpers
     {

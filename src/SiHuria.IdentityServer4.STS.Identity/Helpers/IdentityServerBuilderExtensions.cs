@@ -3,10 +3,10 @@ using System;
 using System.IO;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.Extensions.Configuration;
-using Skoruba.IdentityServer4.Shared.Configuration.Configuration.Common;
-using Skoruba.IdentityServer4.Shared.Configuration.Helpers;
+using SiHuria.IdentityServer4.Shared.Configuration.Configuration.Common;
+using SiHuria.IdentityServer4.Shared.Configuration.Helpers;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Helpers
+namespace SiHuria.IdentityServer4.STS.Identity.Helpers
 {
     public static class IdentityServerBuilderExtensions
     {

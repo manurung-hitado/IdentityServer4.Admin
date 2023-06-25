@@ -1,6 +1,6 @@
-﻿using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Helpers;
+﻿using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Helpers;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Resources
+namespace SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Resources
 {
     public class IdentityServiceResources : IIdentityServiceResources
     {

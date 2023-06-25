@@ -1,8 +1,8 @@
 ﻿using System;
 using Bogus;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
 
-namespace Skoruba.IdentityServer4.Admin.UnitTests.Mocks
+namespace SiHuria.IdentityServer4.Admin.UnitTests.Mocks
 {
     public class IdentityDtoMock<TKey>
     {

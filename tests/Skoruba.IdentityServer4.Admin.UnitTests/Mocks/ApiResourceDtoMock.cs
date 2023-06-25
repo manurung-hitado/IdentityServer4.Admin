@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using Bogus;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Constants;
+using SiHuria.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Constants;
 
-namespace Skoruba.IdentityServer4.Admin.UnitTests.Mocks
+namespace SiHuria.IdentityServer4.Admin.UnitTests.Mocks
 {
     public static class ApiResourceDtoMock
     {

@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Helpers
+namespace SiHuria.IdentityServer4.STS.Identity.Helpers
 {
 
     /// <summary>

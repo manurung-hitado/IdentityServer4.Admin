@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
-using Skoruba.IdentityServer4.Admin.UI.Configuration;
-using Skoruba.IdentityServer4.Admin.UI.Configuration.Constants;
+using SiHuria.IdentityServer4.Admin.UI.Configuration;
+using SiHuria.IdentityServer4.Admin.UI.Configuration.Constants;
 using System;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.Configuration;
-using Skoruba.IdentityServer4.Shared.Configuration.Configuration.Common;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.Configuration;
+using SiHuria.IdentityServer4.Shared.Configuration.Configuration.Common;
 
 namespace Microsoft.Extensions.DependencyInjection
 {

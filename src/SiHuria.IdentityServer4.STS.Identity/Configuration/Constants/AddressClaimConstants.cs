@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.STS.Identity.Configuration.Constants
+﻿namespace SiHuria.IdentityServer4.STS.Identity.Configuration.Constants
 {
     public static class AddressClaimConstants
     {

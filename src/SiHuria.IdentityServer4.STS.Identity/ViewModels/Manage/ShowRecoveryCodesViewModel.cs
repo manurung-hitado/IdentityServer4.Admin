@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.STS.Identity.ViewModels.Manage
+﻿namespace SiHuria.IdentityServer4.STS.Identity.ViewModels.Manage
 {
     public class ShowRecoveryCodesViewModel
     {

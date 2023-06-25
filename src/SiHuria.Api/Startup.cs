@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.Common;
 using System.IdentityModel.Tokens.Jwt;
+using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
@@ -10,6 +11,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using SiHuria.Api.Context;
+using SiHuria.IdentityServer4.Admin.Api.Configuration;
+using SiHuria.IdentityServer4.Admin.Api.Configuration.Authorization;
+using SiHuria.IdentityServer4.Admin.Api.Helpers;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Shared.DbContexts;
+using SiHuria.IdentityServer4.Admin.EntityFramework.Shared.Entities.Identity;
+using Skoruba.AuditLogging.EntityFramework.Entities;
 
 namespace SiHuria.Api
 {
@@ -28,6 +35,8 @@ namespace SiHuria.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
+            var adminApiConfiguration = Configuration.GetSection(nameof(AdminApiConfiguration)).Get<AdminApiConfiguration>();
+            services.AddSingleton(adminApiConfiguration);
 
             // Add DbContexts
             RegisterDbContexts(services);

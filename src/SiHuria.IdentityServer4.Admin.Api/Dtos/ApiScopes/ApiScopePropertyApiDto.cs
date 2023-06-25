@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.Admin.Api.Dtos.ApiScopes
+﻿namespace SiHuria.IdentityServer4.Admin.Api.Dtos.ApiScopes
 {
     public class ApiScopePropertyApiDto
     {

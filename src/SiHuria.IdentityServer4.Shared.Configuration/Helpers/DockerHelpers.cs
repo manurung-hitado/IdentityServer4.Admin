@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
-using Skoruba.IdentityServer4.Shared.Configuration.Configuration.Common;
+using SiHuria.IdentityServer4.Shared.Configuration.Configuration.Common;
 
-namespace Skoruba.IdentityServer4.Shared.Configuration.Helpers
+namespace SiHuria.IdentityServer4.Shared.Configuration.Helpers
 {
     public class DockerHelpers
     {

@@ -2,10 +2,10 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Net.Http;
 using System.Security.Claims;
-using Skoruba.IdentityServer4.Admin.UI.Configuration;
-using Skoruba.IdentityServer4.Admin.UI.Middlewares;
+using SiHuria.IdentityServer4.Admin.UI.Configuration;
+using SiHuria.IdentityServer4.Admin.UI.Middlewares;
 
-namespace Skoruba.IdentityServer4.Admin.IntegrationTests.Common
+namespace SiHuria.IdentityServer4.Admin.IntegrationTests.Common
 {
 	public static class HttpClientExtensions
     {

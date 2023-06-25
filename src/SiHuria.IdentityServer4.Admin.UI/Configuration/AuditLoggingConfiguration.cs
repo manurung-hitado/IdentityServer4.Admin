@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.Admin.UI.Configuration
+﻿namespace SiHuria.IdentityServer4.Admin.UI.Configuration
 {
     public class AuditLoggingConfiguration
     {

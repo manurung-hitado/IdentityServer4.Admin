@@ -6,7 +6,7 @@
 
 using System.ComponentModel.DataAnnotations;
 
-namespace Skoruba.IdentityServer4.STS.Identity.ViewModels.Account
+namespace SiHuria.IdentityServer4.STS.Identity.ViewModels.Account
 {
     public class LoginInputModel
     {

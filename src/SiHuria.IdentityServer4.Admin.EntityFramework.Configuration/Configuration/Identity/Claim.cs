@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.Configuration.Identity
+﻿namespace SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.Configuration.Identity
 {
     public class Claim
     {

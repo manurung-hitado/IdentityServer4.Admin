@@ -18,12 +18,12 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Skoruba.IdentityServer4.STS.Identity.Configuration;
-using Skoruba.IdentityServer4.STS.Identity.Helpers;
-using Skoruba.IdentityServer4.STS.Identity.ViewModels.Consent;
-using Skoruba.IdentityServer4.STS.Identity.ViewModels.Device;
+using SiHuria.IdentityServer4.STS.Identity.Configuration;
+using SiHuria.IdentityServer4.STS.Identity.Helpers;
+using SiHuria.IdentityServer4.STS.Identity.ViewModels.Consent;
+using SiHuria.IdentityServer4.STS.Identity.ViewModels.Device;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Controllers
+namespace SiHuria.IdentityServer4.STS.Identity.Controllers
 {
     [Authorize]
     [SecurityHeaders]

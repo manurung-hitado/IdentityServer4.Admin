@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using IdentityServer4.Models;
-using Client = Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.Configuration.IdentityServer.Client;
+using Client = SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.Configuration.IdentityServer.Client;
 
-namespace Skoruba.IdentityServer4.Admin.EntityFramework.Configuration.Configuration
+namespace SiHuria.IdentityServer4.Admin.EntityFramework.Configuration.Configuration
 {
     public class IdentityServerData
     {
